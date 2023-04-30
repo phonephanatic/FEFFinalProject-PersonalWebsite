@@ -1,0 +1,155 @@
+.fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-github {
+    background: #17202A;
+    color: #ECF0F1;
+}
+
+.hovered-icon {
+    opacity: 0.7;
+    font-size: 60px;
+    width: 60px;
+    padding: 5px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18122B;
+    color: #ffffff;
+    height: 150px;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #76D7C4;
+    color: white;
+    text-align: center;
+ }
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gitcontainer {
+    margin-top: 50%;
+    text-align: center
+
+}
+
+#repos {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+.socialicons {
+    display: flex;
+    justify-content: center;
+}
+
+.reposTitle {
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+}
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  float: left;
+  width: 45%;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.list li {
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #76D7C4;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#repoList {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.playlist {
+  float: right;
+  width: 45%;
+  padding: 10px;
+  background-color: #635985;
+  margin-top: 60px;
+}
+
+.repo-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.repo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.repo-item i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.repo-item:hover {
+  background-color: #76D7C4;
+}
+
+body {
+    background-color: #635985;
+
+}
